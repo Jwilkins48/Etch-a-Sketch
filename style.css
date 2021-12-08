@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+
+
+#container {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(218, 205, 192, 0.192);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 30px 38%;
+}
