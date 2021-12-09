@@ -1,3 +1,4 @@
+/* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Montserrat&family=Work+Sans&display=swap');
 
 body {
@@ -13,6 +14,7 @@ h1 {
     margin: 20px;
 }
 
+/* Sketch board  */
 #container {
     margin-top: 15px;
     display: grid;
@@ -22,6 +24,7 @@ h1 {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+/* Slider */
 .slider {
     -webkit-appearance: none;
     width: 50%;
@@ -47,4 +50,29 @@ h1 {
     background: #61cca5;
     cursor: pointer;
     border-radius: 7px;
+}
+
+/* Button */
+.btn {
+    width: 130px;
+    padding: 10px;
+    border-radius: 8px;
+    border: #beabdd 2px solid;
+    background-color: #beabdd;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 16px;
+    margin-left: 175px;
+    color: #f5f1fd;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #d4c8e7;
+    color: #4d4848;
+    transform: scale(1.05)
+}
+.btn:active{
+    transform: scale(.94)
+    
 }
