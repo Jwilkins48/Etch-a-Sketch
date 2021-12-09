@@ -1,13 +1,23 @@
-h1{
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Montserrat&family=Work+Sans&display=swap');
+body {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: #f8f8ff;
 }
 
+h1 {
+    text-align: center;
+    font-family: 'Fuzzy Bubbles', cursive;
+    margin: 20px;
+}
 
 #container {
+    margin-top: 15px;
     display: grid;
     width: 500px;
     height: 500px;
     background-color: rgba(218, 205, 192, 0.192);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin: 30px 38%;
 }
+
