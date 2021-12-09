@@ -67,12 +67,12 @@ h1 {
     cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #d4c8e7;
     color: #4d4848;
     transform: scale(1.05)
 }
-.btn:active{
+
+.btn:active {
     transform: scale(.94)
-    
 }

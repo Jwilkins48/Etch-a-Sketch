@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,17 +9,20 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
     <h1 class="titleHeader">Etch-a-Sketch</h1>
-    
+
     <div id="container"></div>
 
-    <div class="sliderContainer">
-        <input type="range" min="1" max="100" value="50" class="slider" id="sliderRange">
+    <div id="sliderContainer">
+        <input type="range" min="1" max="50" value="25" class="slider" id="sliderRange"
+            oninput="sliderChange(this.value)">
     </div>
 
     <button type="button" class="btn" id="restartBtn">Restart</button>
 
-    
+
 </body>
+
 </html>
